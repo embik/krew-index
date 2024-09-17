@@ -4,7 +4,7 @@ kind: Plugin
 metadata:
   name: switch-ws
 spec:
-  version: v0.2.0
+  version: v0.2.1
   homepage: https://github.com/embik/kubectl-switch-ws
   shortDescription: Interactive kcp workspace switcher
   description: |
@@ -20,8 +20,8 @@ spec:
         values:
         - darwin
         - linux
-    uri: https://github.com/embik/kubectl-switch-ws/archive/v0.2.0.tar.gz
-    sha256: 4adbde95c389df35efd6909bc22f0f0d290ca38f94adf3a3e75f729e1254ebc3
+    uri: https://github.com/embik/kubectl-switch-ws/archive/v0.2.1.tar.gz
+    sha256: 2b4c46a615a074b3e44dc7fc3b9225530662ceccdeee57918713ddd77e42d9ca
     files:
     - from: "kubectl-switch-ws-*/kubectl-switch_ws"
       to: "."
